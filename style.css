@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+}
+#demo{
+    background: url('photos/life-inspirational.jpg') no-repeat center center fixed;
+    position: absolute;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    /* height: 100svh;
+    width: 100dvw; */
+    z-index: -1;
+    filter: blur(0px);
+}
+#demo2{
+    font-size: 100px;
+    color: #ddd;
+    font-weight: bold;
+}
